@@ -10,7 +10,7 @@ de:
             no_records_html: <p>Keine äußere Ereignisse erstellt</p><p> Fangen Sie zuerst, ein äußere Ereignis mit "<a href="%{new_set_link}">%{button_name}</a>zu erstellen</p>
           create:
             invalid: Ungültiges äußere Ereignis
-            success: External event created successfully
+            success: Ereignis wurde erfolgreich erstellt
           destroy:
             success: External event deleted successfully
           edit:
