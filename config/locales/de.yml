@@ -7,9 +7,9 @@ de:
         external_events:
           index:
             title: Äußere Ereignissen
-            no_records_html: <p>No external events created.</p> <p>Start by adding a external event from the "<a href="%{new_set_link}">%{button_name}</a>" button.</p>
+            no_records_html: <p>Keine äußere Ereignisse erstellt</p><p> Fangen Sie zuerst, ein äußere Ereignis mit "<a href="%{new_set_link}">%{button_name}</a>zu erstellen</p>
           create:
-            invalid: Invalid external event
+            invalid: Ungültiges äußere Ereignis
             success: External event created successfully
           destroy:
             success: External event deleted successfully
