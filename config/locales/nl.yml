@@ -1,44 +1,44 @@
-nl-BE:
+nl:
   decidim:
     calendar:
       admin:
         actions:
-          new_external_event: Nieuwe externe afspraak
+          new_external_event: New external event
         external_events:
           index:
-            title: Externe afspraken
-            no_records_html: <p>Geen externe afspraken gemaakt.</p> <p>Voeg een externe afspraak toe met de "<a href="%{new_set_link}">%{button_name}</a>" knop.</p>
+            title: External events
+            no_records_html: <p>No external events created.</p> <p>Start by adding a external event from the "<a href="%{new_set_link}">%{button_name}</a>" button.</p>
           create:
-            invalid: Ongeldige externe afspraak
-            success: Externe afspraak succesvol aangemaakt
+            invalid: Invalid external event
+            success: External event created successfully
           destroy:
-            success: Externe afspraak succesvol verwijderd
+            success: External event deleted successfully
           edit:
-            save: Externe afspraak opslaan
+            save: Save external event
           form:
-            title: Externe afspraak
+            title: External event
           new:
-            title: Nieuwe externe afspraak
-            create: Nieuwe externe afspraak
+            title: New external event
+            create: Create external event
           update:
-            invalid: Fout bij bijwerken externe afspraak
-            success: Externe afspraak succesvol bijgewerkt
+            invalid: Error updating external event
+            success: External event updated successfully
         models:
           external_events:
             fields:
-              title: Titel
-              start_at: Begint op
-              end_at: Eindigt op
+              title: Title
+              start_at: Start at
+              end_at: End at
               url: URL
       index:
-        title: Globale Agenda
+        title: Global Calendar
         filters:
-          consultation: Bevragingen
-          debate: Debatten
-          external_event: Externe afspraken
-          meeting: Vergaderingen
-          participatory_step: Inspraakproces
+          consultation: Consultations
+          debate: Debates
+          external_event: External events
+          meeting: Meetings
+          participatory_step: Participatory Process
       menu:
-        calendar: Agenda
-        gantt: Gantt Grafiek
-        ical: ICAL downloaden
+        calendar: Calendar
+        gantt: Gantt Graph
+        ical: Download ICAL
