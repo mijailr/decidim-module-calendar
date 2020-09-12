@@ -35,10 +35,15 @@ fr:
         filters:
           consultation: Consultations
           debate: Débats
-          external_event: External Events
+          external_event: Évènements externes
           meeting: Réunions
           participatory_step: Concertation
       menu:
         calendar: Calendrier
         gantt: Graphe de Gantt
-        ical: Télécharger iCAL
+        ical: Télécharger en format iCal
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        other: Calendars

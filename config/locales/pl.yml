@@ -35,10 +35,17 @@ pl:
         filters:
           consultation: Consultations
           debate: Debates
-          external_event: External Events
+          external_event: External events
           meeting: Meetings
           participatory_step: Participatory Process
       menu:
         calendar: Calendar
         gantt: Gantt Graph
         ical: Download ICAL
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        few: Calendars
+        many: Calendars
+        other: Calendars

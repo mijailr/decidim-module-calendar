@@ -42,3 +42,9 @@ ro:
         calendar: Calendar
         gantt: Gantt Graph
         ical: Download ICAL
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        few: Calendars
+        other: Calendars

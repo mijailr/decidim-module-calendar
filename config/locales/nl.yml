@@ -1,0 +1,49 @@
+nl-BE:
+  decidim:
+    calendar:
+      admin:
+        actions:
+          new_external_event: Nieuwe externe afspraak
+        external_events:
+          index:
+            title: Externe afspraken
+            no_records_html: <p>Geen externe afspraken gemaakt.</p> <p>Voeg een externe afspraak toe met de "<a href="%{new_set_link}">%{button_name}</a>" knop.</p>
+          create:
+            invalid: Ongeldige externe afspraak
+            success: Externe afspraak succesvol aangemaakt
+          destroy:
+            success: Externe afspraak succesvol verwijderd
+          edit:
+            save: Externe afspraak opslaan
+          form:
+            title: Externe afspraak
+          new:
+            title: Nieuwe externe afspraak
+            create: Nieuwe externe afspraak
+          update:
+            invalid: Fout bij bijwerken externe afspraak
+            success: Externe afspraak succesvol bijgewerkt
+        models:
+          external_events:
+            fields:
+              title: Titel
+              start_at: Begint op
+              end_at: Eindigt op
+              url: URL
+      index:
+        title: Globale Agenda
+        filters:
+          consultation: Bevragingen
+          debate: Debatten
+          external_event: Externe afspraken
+          meeting: Vergaderingen
+          participatory_step: Inspraakproces
+      menu:
+        calendar: Agenda
+        gantt: Gantt Grafiek
+        ical: ICAL downloaden
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        other: Calendars

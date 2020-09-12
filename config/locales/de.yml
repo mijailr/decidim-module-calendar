@@ -3,14 +3,14 @@ de:
     calendar:
       admin:
         actions:
-          new_external_event: New external event
+          new_external_event: Neues externe Ereignis
         external_events:
           index:
-            title: External events
-            no_records_html: <p>No external events created.</p> <p>Start by adding a external event from the "<a href="%{new_set_link}">%{button_name}</a>" button.</p>
+            title: Äußere Ereignissen
+            no_records_html: <p>Keine äußere Ereignisse erstellt</p><p> Fangen Sie zuerst, ein äußere Ereignis mit "<a href="%{new_set_link}">%{button_name}</a>zu erstellen</p>
           create:
-            invalid: Invalid external event
-            success: External event created successfully
+            invalid: Ungültiges äußere Ereignis
+            success: Ereignis wurde erfolgreich erstellt
           destroy:
             success: External event deleted successfully
           edit:
@@ -35,10 +35,15 @@ de:
         filters:
           consultation: Consultations
           debate: Debates
-          external_event: External Events
+          external_event: External events
           meeting: Meetings
           participatory_step: Participatory Process
       menu:
         calendar: Calendar
         gantt: Gantt Graph
         ical: Download ICAL
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        other: Calendars
