@@ -3,22 +3,22 @@ cs:
     calendar:
       admin:
         actions:
-          new_external_event: New external event
+          new_external_event: Nová externí událost
         external_events:
           index:
-            title: External events
-            no_records_html: <p>No external events created.</p> <p>Start by adding a external event from the "<a href="%{new_set_link}">%{button_name}</a>" button.</p>
+            title: Externí události
+            no_records_html: <p>Nebyly vytvořeny žádné externí události.</p> <p>Začněte přidáním externí události tlačítkem "<a href="%{new_set_link}">%{button_name}</a>.</p>
           create:
-            invalid: Invalid external event
-            success: External event created successfully
+            invalid: Neplatná externí událost
+            success: Externí událost byla úspěšně vytvořena
           destroy:
-            success: External event deleted successfully
+            success: Externí událost byla úspěšně odstraněna
           edit:
-            save: Save external event
+            save: Uložit externí událost
           form:
-            title: External event
+            title: Externí událost
           new:
-            title: New external event
+            title: Nová externí událost
             create: Create external event
           update:
             invalid: Error updating external event
