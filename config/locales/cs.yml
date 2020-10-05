@@ -19,33 +19,33 @@ cs:
             title: Externí událost
           new:
             title: Nová externí událost
-            create: Create external event
+            create: Vytvořit externí událost
           update:
-            invalid: Error updating external event
-            success: External event updated successfully
+            invalid: Chyba při aktualizaci externí události
+            success: Externí událost byla úspěšně aktualizována
         models:
           external_events:
             fields:
-              title: Title
-              start_at: Start at
-              end_at: End at
+              title: Název
+              start_at: Začátek v
+              end_at: Konec v
               url: URL
       index:
-        title: Global Calendar
+        title: Globální kalendář
         filters:
-          consultation: Consultations
-          debate: Debates
-          external_event: External events
-          meeting: Meetings
-          participatory_step: Participatory Process
+          consultation: Konzultace
+          debate: Debaty
+          external_event: Externí události
+          meeting: Schůzky
+          participatory_step: Účastnický proces
       menu:
-        calendar: Calendar
-        gantt: Gantt Graph
-        ical: Download ICAL
+        calendar: Kalendář
+        gantt: Ganttův graf
+        ical: Stáhnout iCAL
   activerecord:
     models:
       decidim/calendar:
-        one: Calendar
+        one: Kalendář
         few: Calendars
         many: Calendars
-        other: Calendars
+        other: Kalendáře
