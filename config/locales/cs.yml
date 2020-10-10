@@ -46,6 +46,6 @@ cs:
     models:
       decidim/calendar:
         one: Kalendář
-        few: Calendars
-        many: Calendars
+        few: Kalendáře
+        many: Kalendáře
         other: Kalendáře
