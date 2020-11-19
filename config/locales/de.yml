@@ -33,12 +33,17 @@ de:
       index:
         title: Globaler Kalender
         filters:
-          consultation: Beratungen
+          consultation: Konsultationen
           debate: Debatten
-          external_event: External Events
+          external_event: Externe Events
           meeting: Meetings
           participatory_step: Beteiligungsprozess
       menu:
         calendar: Kalender
         gantt: Gantt-Diagramm
         ical: Kalenderdatei herunterladen
+  activerecord:
+    models:
+      decidim/calendar:
+        one: Calendar
+        other: Kalender
