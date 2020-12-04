@@ -18,7 +18,7 @@ ru:
           form:
             title: External event
           new:
-            title: New external event
+            title: Добавить внешние мероприятие
             create: Create external event
           update:
             invalid: Error updating external event
@@ -26,26 +26,26 @@ ru:
         models:
           external_events:
             fields:
-              title: Title
-              start_at: Start at
+              title: Титул
+              start_at: Начать с
               end_at: End at
               url: URL
       index:
-        title: Global Calendar
+        title: Глобальный календарь
         filters:
           consultation: Consultations
-          debate: Debates
-          external_event: External events
+          debate: Дебаты
+          external_event: Внешние события
           meeting: Meetings
           participatory_step: Participatory Process
       menu:
-        calendar: Calendar
+        calendar: Календарь
         gantt: Gantt Graph
-        ical: Download ICAL
+        ical: Скачать ICAL
   activerecord:
     models:
       decidim/calendar:
-        one: Calendar
+        one: Календарь
         few: Calendars
         many: Calendars
         other: Calendars
