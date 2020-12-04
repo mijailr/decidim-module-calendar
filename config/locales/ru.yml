@@ -35,7 +35,7 @@ ru:
         filters:
           consultation: Consultations
           debate: Дебаты
-          external_event: Внешние события
+          external_event: Внешние мероприятие
           meeting: Meetings
           participatory_step: Participatory Process
       menu:
