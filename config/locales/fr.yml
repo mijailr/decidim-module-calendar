@@ -46,4 +46,4 @@ fr:
     models:
       decidim/calendar:
         one: Calendar
-        other: Calendars
+        other: Agendas
