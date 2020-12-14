@@ -45,5 +45,5 @@ fr:
   activerecord:
     models:
       decidim/calendar:
-        one: Calendar
+        one: Agenda
         other: Agendas
