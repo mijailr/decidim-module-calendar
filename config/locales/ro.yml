@@ -3,48 +3,48 @@ ro:
     calendar:
       admin:
         actions:
-          new_external_event: New external event
+          new_external_event: Eveniment extern nou
         external_events:
           index:
-            title: External events
-            no_records_html: <p>No external events created.</p> <p>Start by adding a external event from the "<a href="%{new_set_link}">%{button_name}</a>" button.</p>
+            title: Evenimente externe
+            no_records_html: <p>Nici un eveniment extern creat.</p> <p>Începe prin a adăuga un eveniment extern din butonul "<a href="%{new_set_link}">%{button_name}</a>".</p>
           create:
-            invalid: Invalid external event
-            success: External event created successfully
+            invalid: Eveniment extern nevalid
+            success: Eveniment extern creat cu succes
           destroy:
-            success: External event deleted successfully
+            success: Eveniment extern șters cu succes
           edit:
-            save: Save external event
+            save: Salvare eveniment extern
           form:
-            title: External event
+            title: Eveniment extern
           new:
-            title: New external event
-            create: Create external event
+            title: Eveniment extern nou
+            create: Creare eveniment extern
           update:
-            invalid: Error updating external event
-            success: External event updated successfully
+            invalid: Eroare la actualizarea evenimentului extern
+            success: Eveniment extern actualizat cu succes
         models:
           external_events:
             fields:
-              title: Title
-              start_at: Start at
-              end_at: End at
+              title: Titlu
+              start_at: Începe la
+              end_at: Se încheie la
               url: URL
       index:
-        title: Global Calendar
+        title: Calendar global
         filters:
-          consultation: Consultations
-          debate: Debates
-          external_event: External events
-          meeting: Meetings
-          participatory_step: Participatory Process
+          consultation: Consultări
+          debate: Dezbateri
+          external_event: Evenimente externe
+          meeting: Întâlniri
+          participatory_step: Procese participative
       menu:
         calendar: Calendar
-        gantt: Gantt Graph
-        ical: Download ICAL
+        gantt: Grafic Gantt
+        ical: Descarcă ICAL
   activerecord:
     models:
       decidim/calendar:
         one: Calendar
-        few: Calendars
-        other: Calendars
+        few: Calendare
+        other: Calendare
