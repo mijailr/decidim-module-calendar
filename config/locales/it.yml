@@ -45,5 +45,5 @@ it:
   activerecord:
     models:
       decidim/calendar:
-        one: Calendar
-        other: Calendars
+        one: Calendario
+        other: Calendario
