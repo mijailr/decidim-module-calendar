@@ -40,7 +40,7 @@ ru:
           participatory_step: Participatory Process
       menu:
         calendar: Календарь
-        gantt: Gantt Graph
+        gantt: График Гантта
         ical: Скачать ICAL
   activerecord:
     models:
