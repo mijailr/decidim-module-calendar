@@ -3,7 +3,7 @@ de:
     calendar:
       admin:
         actions:
-          new_external_event: Neues externes Event
+          new_external_event: Neues externe Ereignis
         external_events:
           index:
             title: Äußere Ereignissen
